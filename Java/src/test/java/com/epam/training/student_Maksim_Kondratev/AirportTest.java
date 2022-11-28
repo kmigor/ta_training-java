@@ -1,15 +1,14 @@
 package com.epam.training.student_Maksim_Kondratev;
 
-import com.epam.training.student_Maksim_Kondratev.models.Airport;
-import com.epam.training.student_Maksim_Kondratev.models.planes.ExperimentalPlane;
+import com.epam.training.student_Maksim_Kondratev.planes.ExperimentalPlane;
 import com.epam.training.student_Maksim_Kondratev.models.ClassificationLevel;
 import com.epam.training.student_Maksim_Kondratev.models.ExperimentalTypes;
 import com.epam.training.student_Maksim_Kondratev.models.MilitaryType;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import com.epam.training.student_Maksim_Kondratev.models.planes.MilitaryPlane;
-import com.epam.training.student_Maksim_Kondratev.models.planes.PassengerPlane;
-import com.epam.training.student_Maksim_Kondratev.models.planes.AbstractPlane;
+import com.epam.training.student_Maksim_Kondratev.planes.MilitaryPlane;
+import com.epam.training.student_Maksim_Kondratev.planes.PassengerPlane;
+import com.epam.training.student_Maksim_Kondratev.planes.AbstractPlane;
 
 import java.util.Arrays;
 import java.util.List;

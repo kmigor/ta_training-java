@@ -1,8 +1,9 @@
-package com.epam.training.student_Maksim_Kondratev.models;
+package com.epam.training.student_Maksim_Kondratev;
 
-import com.epam.training.student_Maksim_Kondratev.models.planes.MilitaryPlane;
-import com.epam.training.student_Maksim_Kondratev.models.planes.PassengerPlane;
-import com.epam.training.student_Maksim_Kondratev.models.planes.AbstractPlane;
+import com.epam.training.student_Maksim_Kondratev.planes.MilitaryPlane;
+import com.epam.training.student_Maksim_Kondratev.planes.PassengerPlane;
+import com.epam.training.student_Maksim_Kondratev.planes.AbstractPlane;
+import com.epam.training.student_Maksim_Kondratev.models.MilitaryType;
 
 import java.util.Arrays;
 import java.util.List;

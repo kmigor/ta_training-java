@@ -1,4 +1,4 @@
-package com.epam.training.student_Maksim_Kondratev.models.planes;
+package com.epam.training.student_Maksim_Kondratev.planes;
 
 import java.util.Objects;
 
