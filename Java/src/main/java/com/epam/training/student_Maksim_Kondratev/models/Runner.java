@@ -1,13 +1,14 @@
-import models.MilitaryType;
-import Planes.MilitaryPlane;
-import Planes.PassengerPlane;
-import Planes.Plane;
+package com.epam.training.student_Maksim_Kondratev.models;
+
+import com.epam.training.student_Maksim_Kondratev.models.planes.MilitaryPlane;
+import com.epam.training.student_Maksim_Kondratev.models.planes.PassengerPlane;
+import com.epam.training.student_Maksim_Kondratev.models.planes.AbstractPlane;
 
 import java.util.Arrays;
 import java.util.List;
 
 public class Runner {
-    static List<Plane> planes = Arrays.asList(
+    static List<AbstractPlane> planes = Arrays.asList(
             new PassengerPlane("Boeing-737", 900, 12000, 60500, 164),
             new PassengerPlane("Boeing-737-800", 940, 12300, 63870, 192),
             new PassengerPlane("Boeing-747", 980, 16100, 70500, 242),
@@ -27,7 +28,7 @@ public class Runner {
     public static void main(String[] args) {
         Airport airport = new Airport(planes);
         Airport militaryAirport = new Airport(airport.getMilitaryPlanes());
-        Airport passengerAirport = new Airport(airport.getPasPl());
+        Airport passengerAirport = new Airport(airport.getPassengerPlanes());
         System.out.println("Military airport sorted by max distance: " + militaryAirport
                 .sortByMaxDistance()
                 .toString());
